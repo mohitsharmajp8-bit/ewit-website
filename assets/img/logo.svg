@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="East West Institute of Technology crest">
+  <defs>
+    <linearGradient id="navyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15306a"/>
+      <stop offset="1" stop-color="#0a1530"/>
+    </linearGradient>
+    <linearGradient id="goldG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d195"/>
+      <stop offset="1" stop-color="#c8a24a"/>
+    </linearGradient>
+    <path id="topArc" d="M 28 120 A 92 92 0 0 1 212 120"/>
+    <path id="botArc" d="M 205 120 A 85 85 0 0 0 35 120"/>
+  </defs>
+
+  <circle cx="120" cy="120" r="116" fill="url(#navyG)" stroke="url(#goldG)" stroke-width="3"/>
+  <circle cx="120" cy="120" r="105" fill="none" stroke="url(#goldG)" stroke-width="1.2" opacity="0.7"/>
+
+  <text fill="#e8d195" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" letter-spacing="2.4" font-weight="600">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">EAST WEST INSTITUTE OF TECHNOLOGY</textPath>
+  </text>
+  <text fill="#c8a24a" font-family="'Courier New', monospace" font-size="10.5" letter-spacing="3">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">BENGALURU &#183; ESTD 2001</textPath>
+  </text>
+
+  <!-- flame of knowledge -->
+  <path d="M120 96 C131 113 138 122 138 132 C138 142 130 150 120 150 C110 150 102 142 102 132 C102 124 107 118 112 110 C114 117 118 119 120 118 C118 110 118 103 120 96 Z" fill="url(#goldG)"/>
+  <path d="M120 120 C126 128 129 133 129 138 C129 143 125 147 120 147 C115 147 111 143 111 138 C111 134 114 130 117 126 C118 130 119 131 120 131 C119 127 119 123 120 120 Z" fill="#0b1c3f" opacity="0.85"/>
+
+  <!-- open book -->
+  <path d="M74 158 Q98 146 120 154 L120 178 Q98 170 74 182 Z" fill="url(#goldG)"/>
+  <path d="M166 158 Q142 146 120 154 L120 178 Q142 170 166 182 Z" fill="url(#goldG)"/>
+  <line x1="120" y1="154" x2="120" y2="178" stroke="#0b1c3f" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- flanking stars -->
+  <circle cx="86" cy="104" r="2.2" fill="#e8d195"/>
+  <circle cx="154" cy="104" r="2.2" fill="#e8d195"/>
+</svg>
